@@ -514,3 +514,9 @@ fieldset[disabled] .btn-success.active {
 div#maincontent {
   outline: none;
 }
+
+div.video, iframe {
+  text-align: center;
+  margin: 0 auto;
+
+}
