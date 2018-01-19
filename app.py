@@ -79,10 +79,10 @@ def time_post():
 
          
 
-@app.route('/python_apps')
-def python_apps_page():
+@app.route('/blogs')
+def blogs_page():
 	# testing stuff
-	return render_template('python_apps.html')
+	return render_template('blogs.html')
 
 
 @app.route('/blog', methods=['GET'])
