@@ -20,3 +20,14 @@ div.stories {
 #video {
 	width: 100%;
 }
+
+.portfolio-item {
+	padding: 0px;
+}
+
+@media only screen and (max-width: 450px) {
+    * {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
