@@ -25,9 +25,7 @@ div.stories {
 	padding: 0px;
 }
 
-p{
-	text-align: justify;
-}
+
 #youtube {
 	text-align: center;
 }
@@ -45,9 +43,7 @@ float: none;
 margin: 0 auto;
 text-align: center;
 }
-p.intro {
-	text-align: justify;
-}
+
 @media only screen and (max-width: 425px) {
     * {
         text-align: center;
@@ -67,7 +63,7 @@ p.intro {
     #youtube {
 	text-align: center;
 }
-p.intro {
+p{
 	text-align: justify;
 }
 
