@@ -45,6 +45,9 @@ float: none;
 margin: 0 auto;
 text-align: center;
 }
+p.intro {
+	text-align: justify;
+}
 @media only screen and (max-width: 425px) {
     * {
         text-align: center;
@@ -63,6 +66,9 @@ text-align: center;
     }*/
     #youtube {
 	text-align: center;
+}
+p.intro {
+	text-align: justify;
 }
 
 }
