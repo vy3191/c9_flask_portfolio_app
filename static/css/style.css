@@ -40,6 +40,11 @@ p{
 .third {
 	background: green;
 }
+.col-centered{
+float: none;
+margin: 0 auto;
+text-align: center;
+}
 @media only screen and (max-width: 425px) {
     * {
         text-align: center;
