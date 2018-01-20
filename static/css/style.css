@@ -31,18 +31,30 @@ p{
 #youtube {
 	text-align: center;
 }
+.first {
+	background: red;
+}
+.second {
+	background: blue;
+}
+.third {
+	background: green;
+}
 @media only screen and (max-width: 425px) {
     * {
         text-align: center;
         margin: 0 auto;
     }
-    #video {
+    /*#video {
     	 width: 360px;
-    }
+    }*/
 
     .portfolio-item {
     	margin-right:0px;
     	padding:0px;
+    }
+    iframe {
+    	width: 300px;
     }
     #youtube {
 	text-align: center;
