@@ -25,6 +25,10 @@ div.stories {
 	padding: 0px;
 }
 
+p{
+	text-align: justify;
+}
+
 @media only screen and (max-width: 425px) {
     * {
         text-align: center;
