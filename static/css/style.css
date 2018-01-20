@@ -50,17 +50,17 @@ text-align: center;
         text-align: center;
         margin: 0 auto;
     }
-    /*#video {
-    	 width: 360px;
-    }*/
+    #video {
+    	padding:0;
+    }
 
     .portfolio-item {
     	margin-right:0px;
     	padding:0px;
     }
-    iframe {
+    /*iframe {
     	width: 360px;
-    }
+    }*/
     #youtube {
 	text-align: center;
 }
