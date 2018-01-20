@@ -28,7 +28,9 @@ div.stories {
 p{
 	text-align: justify;
 }
-
+#youtube {
+	text-align: center;
+}
 @media only screen and (max-width: 425px) {
     * {
         text-align: center;
@@ -42,5 +44,8 @@ p{
     	margin-right:0px;
     	padding:0px;
     }
+    #youtube {
+	text-align: center;
+}
 
 }
