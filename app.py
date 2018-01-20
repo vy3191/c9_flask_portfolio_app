@@ -79,7 +79,7 @@ def time_post():
 
          
 
-@app.route('/blogs')
+@app.route('/blog')
 def blogs_page():
 	# testing stuff
 	return render_template('blogs.html')
@@ -87,7 +87,7 @@ def blogs_page():
 
 @app.route('/blog', methods=['GET'])
 def blog_page():
-  return render_template('blog.html')
+  return render_template('blogs.html')
 
 
 if __name__ == '__main__':
